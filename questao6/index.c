@@ -7,5 +7,5 @@ int main(){
     float energia = 0;
     scanf("%f %f %f",&corrente,&resistencia,&tempo);
     energia = corrente*corrente*resistencia*tempo*60;
-    printf("%d",(int)energia);
+    printf("Q=%dJ",(int)energia);
 }
