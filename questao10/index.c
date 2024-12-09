@@ -50,6 +50,12 @@ int main(){
         {
             quantidadeDeZeros=9;
             resistencia+=9; 
+        }else if(cores[index]=='D'){
+            resistencia*=0.1;
+            quantidadeDeZeros = 0;
+        }else if(cores[index]=='S'){
+            resistencia*=0.01;
+            quantidadeDeZeros = 0;
         }
         if (index==0){
             resistencia*=10;
